@@ -1,0 +1,128 @@
+/* Estilo para la barra de información */
+.info-bar {
+    background-color: #a569bd;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.info-bar .company-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info-bar .right-content a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.info-bar .right-content a:hover {
+    text-decoration: underline;
+}
+
+/* Cuadro de texto debajo de la barra de información */
+.description {
+    background-color: #d2b4de;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 16px;
+    width: 70%;
+    max-width: 600px;
+}
+
+/* Espacio en blanco */
+.spacing {
+    height: 40px;
+}
+
+/* Título transparente con letras negras */
+.transparent-title {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido */
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+/* Estilo para la sección de productos */
+.products {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Ajustes para el carrusel y las imágenes */
+.carousel-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #a569bd;
+    margin-right: 10px;
+}
+
+/* Sección de contacto */
+.contact-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-button {
+    background-color: #a569bd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-button img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.contact-button:hover {
+    background-color: #6c3483;
+}
+
+/* Mapa */
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #6c3483;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
